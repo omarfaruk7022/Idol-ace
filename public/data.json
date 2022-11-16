@@ -1,0 +1,61 @@
+[
+    {
+        "name": "TASKI / Diversey R1: Cleaning and Sanitising of Bathroom / Toilet surfaces",
+        "model": "Taski R1",
+        "howToDilute":"For cleaning : 20 ml in 1 ltr. water For sanitizing : 50 ml in 1 ltr. water",
+        "usage":"Spray directly on the surface to be cleaned Leave for 2 seconds Scrub if necessary and wipe surface with clean and dry cloth Replace cloth regularly",
+        "image": "https://i.ibb.co/Sr2CRHk/548130217054328.jpg"
+    },
+    {
+        "name": " Diversey R2: All purpose cleaning agen",
+        "model": "Taski R2",
+        "howToDilute":"Normal soiling : 20 - 40 ml in 1 ltr. water Heavy soiling : 50 ml in 1 ltr. water",
+        "usage":"Floor cleaner for glass and floor like Italian marble, Can be used for wet mopping as well as scrubbing with a machine.Wet moping solution to be taken in bucket/mop trolley Rinse the mop frequently Alternatively use scrubbing machine and pickup direct solution using a wet vacuum cleaner",
+        "image": "https://i.ibb.co/YPqb23R/790130217060647.jpg"
+    },
+    {
+        "name": "R3: Glass cleaner",
+        "brand": "Diversey",
+        "capacity": "20 - 50 ml in ltr",
+        "model": "Taski R3",
+        "details": "Windows, mirrors, glass display cases",
+        "howToDilute":"20 – 50 ml in 1 ltr. water for cleaning all types of glasses and mirrors",
+        "usage":"Spray directly on a dry clean cloth Apply to the surface and wipe with a clean dry lint free cloth Replace cloth regularly Buffing dry",
+        "image": "https://i.ibb.co/swZtLM9/757130217061320.jpg"
+    },
+    {
+        "name": " R4: Furniture polish",
+        "model": "Taski R3",
+        "howToDilute":"Ready to use, No need to dilute.",
+        "usage":"Shake the bottle well before use.Spray on a soft dry cloth.Apply to the surface evenly and start buffing.Buffed the floor / surface to high shine.Replace cloth regularly.Note: Do not use on glasses, floors, stairs and laminated sheets",
+        "image": "https://i.ibb.co/p08v2Ct/598130217061502.jpg"
+    },
+    {
+        "name": "R5: Floor cleaner",
+        "model": "Taski R5",
+        "howToDilute":"Normal soiling : 20 - 40 ml in 1 ltr. water Heavy soiling : 50 ml in 1 ltr. water",
+        "usage":"Floor cleaner for glass and floor like Italian marble, Can be used for wet mopping as well as scrubbing with a machine.Wet moping solution to be taken in bucket/mop trolley Rinse the mop frequently Alternatively use scrubbing machine and pickup direct solution using a wet vacuum cleaner",
+        "image": "https://i.ibb.co/YPqb23R/790130217060647.jpg"
+    },
+    {
+        "name": "R6: Floor cleaner",
+        "model": "Taski R6",
+        "howToDilute":"Normal soiling : 20 - 40 ml in 1 ltr. water Heavy soiling : 50 ml in 1 ltr. water",
+        "usage":"Floor cleaner for glass and floor like Italian marble, Can be used for wet mopping as well as scrubbing with a machine.Wet moping solution to be taken in bucket/mop trolley Rinse the mop frequently Alternatively use scrubbing machine and pickup direct solution using a wet vacuum cleaner",
+        "image": "https://i.ibb.co/YPqb23R/790130217060647.jpg"
+    },
+    {
+        "name": "R7: Floor cleaner",
+        "model": "Taski R7",
+        "howToDilute":"Normal soiling : 20 - 40 ml in 1 ltr. water Heavy soiling : 50 ml in 1 ltr. water",
+        "usage":"Floor cleaner for glass and floor like Italian marble, Can be used for wet mopping as well as scrubbing with a machine.Wet moping solution to be taken in bucket/mop trolley Rinse the mop frequently Alternatively use scrubbing machine and pickup direct solution using a wet vacuum cleaner",
+        "image": "https://i.ibb.co/YPqb23R/790130217060647.jpg"
+    },
+    {
+        "name": "R8: Floor cleaner",
+        "model": "Taski R8",
+        "howToDilute":"Normal soiling : 20 - 40 ml in 1 ltr. water Heavy soiling : 50 ml in 1 ltr. water",
+        "usage":"Floor cleaner for glass and floor like Italian marble, Can be used for wet mopping as well as scrubbing with a machine.Wet moping solution to be taken in bucket/mop trolley Rinse the mop frequently Alternatively use scrubbing machine and pickup direct solution using a wet vacuum cleaner",
+        "image": "https://i.ibb.co/YPqb23R/790130217060647.jpg"
+    }
+]
