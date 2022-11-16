@@ -1,8 +1,15 @@
 import React from "react";
+import video from "../Images//220831.mkv";
 
 const Banner = () => {
   return (
     <div>
+      {/* <video autoPlay muted className="w-full " src={video}>
+
+      <div className="">
+        <h1 className="text-5xl">Hello</h1>
+      </div>
+      </video> */}
       <section class="relative bg-[url(https://i.ibb.co/k8g9MWJ/1486808383.jpg)] bg-cover bg-center bg-no-repeat bg-fixed top-0">
         <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/0 sm:to-white/25"></div>
 

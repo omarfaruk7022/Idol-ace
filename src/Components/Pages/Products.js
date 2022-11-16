@@ -1,18 +1,38 @@
 import React, { useEffect, useState } from "react";
+import { useQuery } from "react-query";
 import { useNavigate } from "react-router-dom";
+import Loader from "./Shared/Loader";
 
 const Products = () => {
-  const [products, setProducts] = useState();
+  // const [products, setProducts] = useState();
+ 
   const navigate = useNavigate();
-  useEffect(() => {
-    fetch("https://idol-ace-server-production.up.railway.app/products")
+  const {
+    data: products,
+    isLoading,
+  
+  } = useQuery("orders", () =>
+    fetch(` https://idol-ace-server-production.up.railway.app/products`, {
+      method: "GET",
+    })
       .then((res) => res.json())
-      .then((json) => setProducts(json));
-  }, []);
+      .then((data) => {
+        return data;
+      })
+  );
+
+  if (isLoading) {
+    return <Loader/>;
+  }
+  // useEffect(() => {
+  //   fetch("https://idol-ace-server-production.up.railway.app/products")
+  //     .then((res) => res.json())
+  //     .then((json) => setProducts(json));
+  // }, []);
 
   return (
     <div>
-      <section>
+      <section className="">
         <div class="mx-auto max-w-screen-xl px-4 py-8 my-28">
           <div>
             <span class="inline-block h-1 w-12 bg-red-700"></span>
@@ -44,8 +64,6 @@ const Products = () => {
 
                 <div class="mt-4 flex items-center justify-between font-bold">
                   <p class="text-sm">Model: {product?.model} </p>
-
-                
                 </div>
                 <button
                   onClick={() => navigate(`/productDetails/${product?._id}`)}

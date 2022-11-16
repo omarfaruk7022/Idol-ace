@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../.././Images//idolace.png"
+import logo from "../.././Images//idolace.png";
 
 const Footer = () => {
   return (
@@ -220,7 +220,7 @@ const Footer = () => {
           </div>
 
           <div class="mt-16">
-            <ul class="flex justify-center gap-6 sm:justify-end">
+            <ul class="flex justify-center gap-6 sm:justify-end ">
               <li>
                 <a
                   href="/"
@@ -332,14 +332,17 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-
+            <h1 className="text-2xl font-bold lg:mt-0 mt-12">Idol Group</h1>
+            <h1>
+              House: 9, Road: 27, Block: K, Banani, Dhaka-1213 Bangladesh.
+            </h1>
             <div class="mt-16 sm:flex sm:items-center sm:justify-between">
               <div class="flex justify-center text-teal-600 sm:justify-start">
                 <img src={logo} alt="" />
               </div>
 
-              <p class="mt-4 text-center text-sm text-gray-500 sm:mt-0 sm:text-right">
-                Copyright &copy; 2022. All rights reserved.
+              <p class="mt- text-center text-sm text-gray-500 sm:mt-0 sm:text-right">
+                Copyright &copy; 2022. All rights reserved.  
               </p>
             </div>
           </div>

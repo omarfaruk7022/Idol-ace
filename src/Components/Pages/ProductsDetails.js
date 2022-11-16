@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 
 const ProductsDetails = () => {
   const { id } = useParams();
   const [product, setProduct] = useState();
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  console.log(pathname);
+
   useEffect(() => {
     fetch(`https://idol-ace-server-production.up.railway.app/products/${id}`)
       .then((res) => res.json())
