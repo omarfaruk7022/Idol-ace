@@ -1,7 +1,4 @@
 import React from "react";
-import banner1 from "../Images//1486807894.jpg";
-import banner2 from "../Images//1486807974.jpg";
-import banner3 from "../Images//1486807993.jpg";
 
 const Banner = () => {
   return (

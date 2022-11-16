@@ -5,11 +5,11 @@ const Products = () => {
   const [products, setProducts] = useState();
   const navigate = useNavigate();
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://idol-ace-server-production.up.railway.app/products")
       .then((res) => res.json())
       .then((json) => setProducts(json));
   }, []);
-  
+
   return (
     <div>
       <section>
@@ -47,13 +47,15 @@ const Products = () => {
 
                   <p class="text-xs uppercase tracking-wide mr-5">6 Colors</p>
                 </div>
-                <button onClick={() => navigate(`/productDetails/${product?._id}`)} className="btn btn-outline hover:bg-neutral bg-accent text-white border-0 w-64  my-8 ml-2">
+                <button
+                  onClick={() => navigate(`/productDetails/${product?._id}`)}
+                  className="btn btn-outline hover:bg-neutral bg-accent text-white border-0 w-64  my-8 ml-2"
+                >
                   {" "}
                   Details
                 </button>
               </div>
             ))}
-            
           </div>
         </div>
       </section>

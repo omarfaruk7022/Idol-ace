@@ -5,7 +5,7 @@ const ProductsDetails = () => {
   const { id } = useParams();
   const [product, setProduct] = useState();
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${id}`)
+    fetch(`https://idol-ace-server-production.up.railway.app/products/${id}`)
       .then((res) => res.json())
       .then((json) => setProduct(json));
   }, [id]);
