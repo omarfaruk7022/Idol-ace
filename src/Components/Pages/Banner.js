@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div>
       <section class="relative bg-[url(https://i.ibb.co/k8g9MWJ/1486808383.jpg)] bg-cover bg-center bg-no-repeat bg-fixed top-0">
-        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/50 sm:to-white/25"></div>
+        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/0 sm:to-white/25"></div>
 
         <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div class="max-w-xl text-center sm:text-left">
