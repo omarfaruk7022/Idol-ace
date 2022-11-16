@@ -6,52 +6,26 @@ import banner3 from "../Images//1486807993.jpg";
 const Banner = () => {
   return (
     <div>
-      <div className="carousel w-full ">
-        <div id="slide1" className="carousel-item relative w-full">
-          <img src={banner1} className="w-full" />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn btn-outline btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" className="btn btn-outline btn-circle">
-              ❯
-            </a>
+      <section class="relative bg-[url(https://i.ibb.co/1Jm53dq/1486807993.jpg)] bg-cover bg-center bg-no-repeat bg-fixed top-0">
+        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/50 sm:to-white/25"></div>
+
+        <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+          <div class="max-w-xl text-center sm:text-left">
+            <h1 class="text-3xl font-extrabold sm:text-5xl">
+              Let us find your
+              <strong class="block font-extrabold text-accent">
+                Forever Home.
+              </strong>
+            </h1>
+
+            <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
+            Idol Ace Ltd is a International Trading House. Idol Ace Ltd provide all kinds of Equipment. As like as, Cleaning Equipment, Bathroom Equipment, Kitchen Equipment etc. 
+            </p>
+
+            
           </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <img src={banner2} className="w-full" />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="btn btn-outline btn-circle">
-              ❮
-            </a>
-            <a href="#slide3" className="btn btn-outline btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide3" className="carousel-item relative w-full">
-          <img src={banner3} className="w-full" />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="btn btn-outline btn-circle">
-              ❮
-            </a>
-            <a href="#slide4" className="btn  btn-outline btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide4" className="carousel-item relative w-full">
-          <img src={banner1} className="w-full" />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" className="btn btn-outline btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-outline btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const Products = () => {
   return (
     <div>
       <section>
-        <div class="mx-auto max-w-screen-xl px-4 py-8">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 my-28">
           <div>
             <span class="inline-block h-1 w-12 bg-red-700"></span>
 

@@ -4,6 +4,7 @@ import TopSection from "./Components/Pages/TopSection";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./Components/Pages/Home";
 import ProductsDetails from "./Components/Pages/ProductsDetails";
+import Footer from "./Components/Pages/Shared/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/productDetails/:id" element={<ProductsDetails/>} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
