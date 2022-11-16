@@ -22,10 +22,10 @@ const Products = () => {
             </h2>
           </div>
 
-          <div class="mt-8 grid grid-cols-1 gap-x-8 gap-y-8 lg:grid-cols-4">
+          <div class="mt-8 grid grid-cols-1 gap-x-8 gap-y-8 lg:grid-cols-4 ">
             {products?.map((product) => (
-              <div href="#" class="block">
-                <div class="flex justify-center">
+              <div href="#" class="block ">
+                <div class="flex justify-center ">
                   <strong class="relative h-6 bg-black px-4 text-xs uppercase leading-6 text-white">
                     New
                   </strong>
@@ -34,22 +34,22 @@ const Products = () => {
                 <img
                   alt="Trainer"
                   src={product?.image}
-                  class="-mt-3 h-52 object-cover"
+                  class="-mt-3 h-52 mx-auto"
                 />
 
-                <h3 class="mt-4 text-lg text-black/90">
-                  {product?.name.slice(0, 34)}
+                <h3 class="mt-4  text-lg text-black/90 w-full">
+                  {product?.name.slice(0, 30)}
                   {product?.name.length > 34 && "..."}
                 </h3>
 
                 <div class="mt-4 flex items-center justify-between font-bold">
                   <p class="text-sm">Model: {product?.model} </p>
 
-                  <p class="text-xs uppercase tracking-wide mr-5">6 Colors</p>
+                
                 </div>
                 <button
                   onClick={() => navigate(`/productDetails/${product?._id}`)}
-                  className="btn btn-outline hover:bg-neutral bg-accent text-white border-0 w-64  my-8 ml-2"
+                  className="btn btn-outline hover:bg-neutral bg-accent text-white border-0 lg:w-64 w-full  my-8 lg:ml-2"
                 >
                   {" "}
                   Details
