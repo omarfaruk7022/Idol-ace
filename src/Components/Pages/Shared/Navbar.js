@@ -27,21 +27,21 @@ const Navbar = () => {
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       class="text-gray-500 transition p-8 hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
-                      href="/"
+                      to="/about"
                     >
-                      Careers
-                    </a>
+                    About us
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       class="text-gray-500 transition p-8 hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
-                      href="/"
+                      to="/services"
                     >
-                      History
-                    </a>
+                      Services
+                    </Link>
                   </li>
 
                   {/* <li>

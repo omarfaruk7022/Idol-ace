@@ -5,13 +5,9 @@ import Loader from "./Shared/Loader";
 
 const Products = () => {
   // const [products, setProducts] = useState();
- 
+
   const navigate = useNavigate();
-  const {
-    data: products,
-    isLoading,
-  
-  } = useQuery("orders", () =>
+  const { data: products, isLoading } = useQuery("orders", () =>
     fetch(` https://idol-ace-server-production.up.railway.app/products`, {
       method: "GET",
     })
@@ -22,7 +18,7 @@ const Products = () => {
   );
 
   if (isLoading) {
-    return <Loader/>;
+    return <Loader />;
   }
   // useEffect(() => {
   //   fetch("https://idol-ace-server-production.up.railway.app/products")
