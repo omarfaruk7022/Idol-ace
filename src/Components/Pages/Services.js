@@ -19,9 +19,9 @@ const Services = () => {
           <p className="border-b-2 border-accent w-[170px] m-auto my-1"></p>
           <p className="border-b-2 border-accent w-[100px] m-auto my-1"></p>
         </div>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
           <div>
-            <img className="w-[500px] ml-48" src={image1} alt="" />
+            <img className="w-[500px] lg:ml-48 ml-0" src={image1} alt="" />
           </div>
           <div>
             <h1 className="mt-12 font-bold">
@@ -48,16 +48,16 @@ const Services = () => {
           <p className="border-b-2 border-accent w-[170px] m-auto my-1"></p>
           <p className="border-b-2 border-accent w-[100px] m-auto my-1"></p>
         </div>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
           <div>
-            <img className="w-[420px] ml-48" src={image2} alt="" />
+            <img className="w-[420px] lg:ml-48 ml-0" src={image2} alt="" />
           </div>
           <div>
             <h1 className="mt-12 font-bold">
               <Typical
                 steps={[
                   "",
-                  11000,
+                  12000,
                   " We Provides All Kinds of Bathroom accessories, Laundry Matchinery,And Guest Room Decoration.",
                   800,
                 ]}

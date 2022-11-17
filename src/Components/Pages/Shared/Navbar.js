@@ -68,23 +68,8 @@ const Navbar = () => {
                     </a>
                   </li> */}
 
-                  <li>
-                    <a
-                      class="text-gray-500 transition p-8 hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
-                      href="/"
-                    >
-                      Projects
-                    </a>
-                  </li>
+                  
 
-                  <li>
-                    <a
-                      class="text-gray-500 transition p-8 hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
-                      href="/"
-                    >
-                      Blog
-                    </a>
-                  </li>
                 </ul>
               </nav>
             </div>
