@@ -14,14 +14,14 @@ const Banner = () => {
 
         <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
           <div class="max-w-xl text-center sm:text-left">
-            <h1 class="text-3xl font-extrabold sm:text-5xl text-white">
+            <h1 class="text-3xl font-extrabold sm:text-5xl lg:text-white text-black">
               Let us find your
               <strong class="block font-extrabold text-accent">
                 Forever Home.
               </strong>
             </h1>
 
-            <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed text-white">
+            <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed lg:text-white text-black">
             Idol Ace Ltd is a International Trading House. Idol Ace Ltd provide all kinds of Equipment. As like as, Cleaning Equipment, Bathroom Equipment, Kitchen Equipment etc. 
             </p>
 

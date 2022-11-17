@@ -17,9 +17,6 @@ const Products = () => {
       })
   );
 
-  if (isLoading) {
-    return <Loader />;
-  }
   // useEffect(() => {
   //   fetch("https://idol-ace-server-production.up.railway.app/products")
   //     .then((res) => res.json())
@@ -38,6 +35,11 @@ const Products = () => {
             </h2>
           </div>
 
+          {isLoading && (
+            <>
+              <Loader className="m-auto"></Loader>;
+            </>
+          )}
           <div class="mt-8 grid grid-cols-1 gap-x-8 gap-y-8 lg:grid-cols-4 ">
             {products?.map((product) => (
               <div href="#" class="block ">

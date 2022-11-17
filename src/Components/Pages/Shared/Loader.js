@@ -3,9 +3,10 @@ import { FallingLines } from "react-loader-spinner";
 
 const Loader = () => {
   return (
-    <div>
+    <div >
       <FallingLines
-        color="#4fa94d"
+      
+        color="#FF6600"
         width="100"
         visible={true}
         ariaLabel="falling-lines-loading"

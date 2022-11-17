@@ -5,7 +5,7 @@ import logo from "../../Images//idolace.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar h-16 mx-auto max-w-screen-xl">
+      <div className="navbar h-[80px] mx-auto max-w-screen-xl">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -56,7 +56,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className=" normal-case text-xl">
+          <a href="/" className=" normal-case text-xl">
             <img src={logo} alt="" />
           </a>
         </div>
