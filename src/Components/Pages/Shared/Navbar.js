@@ -5,77 +5,92 @@ import logo from "../../Images//idolace.png";
 const Navbar = () => {
   return (
     <div>
-      <header aria-label="Site Header" class="bg-white  w-full ">
-        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-          <div class="flex h-16 items-center justify-between">
-            <div class="flex-1 md:flex md:items-center md:gap-12">
-              <a href="http://localhost:3000/">
-                <img src={logo} alt="logo" />
-              </a>
-            </div>
+      <div className="navbar h-16 mx-auto max-w-screen-xl">
+        <div className="navbar-start">
+          <div className="dropdown">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabIndex={0}
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <Link
+                  class="text-gray-500 transition px-8 h-14  hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
+                  to="/"
+                >
+                  Home
+                </Link>
+              </li>
 
-            <div class="md:flex md:items-center md:gap-12">
-              <nav aria-label="Site Nav" class="hidden md:block">
-                <ul class="flex items-center text-sm">
-                  <li>
-                    <Link
-                      class="text-gray-500 transition p-8 hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
-                      to="/"
-                    >
-                      Home
-                    </Link>
-                  </li>
+              <li>
+                <Link
+                  class="text-gray-500 transition px-8 h-14  hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
+                  to="/about"
+                >
+                  About us
+                </Link>
+              </li>
 
-                  <li>
-                    <Link
-                      class="text-gray-500 transition p-8 hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
-                      to="/about"
-                    >
-                    About us
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      class="text-gray-500 transition p-8 hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
-                      to="/services"
-                    >
-                      Services
-                    </Link>
-                  </li>
-
-                  {/* <li>
-                    <a
-                      class="text-gray-500 transition p-8 hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
-                      href="/"
-                    >
-                      <div className="dropdown dropdown-hover">
-                        <label tabIndex={0} className=" m-1 cursor-pointer">
-                          Dropdown
-                        </label>
-                        <ul
-                          tabIndex={0}
-                          className="dropdown-content menu p-2 shadow bg-base-100  w-52"
-                        >
-                          <li>
-                            <a>Item 1</a>
-                          </li>
-                          <li>
-                            <a>Item 2</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </a>
-                  </li> */}
-
-                  
-
-                </ul>
-              </nav>
-            </div>
+              <li>
+                <Link
+                  class="text-gray-500 transition px-8 h-14  hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
+                  to="/services"
+                >
+                  Services
+                </Link>
+              </li>
+            </ul>
           </div>
+          <a className=" normal-case text-xl">
+            <img src={logo} alt="" />
+          </a>
         </div>
-      </header>
+        <div className="navbar-center hidden  lg:flex">
+          <ul className="menu menu-horizontal p-0">
+            <li>
+              <Link
+                class="text-gray-500  transition px-6 h-12 m-auto hover:bg-accent rounded hover:text-white ease-in duration-200"
+                to="/"
+              >
+                Home
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                class="text-gray-500 transition px-6 h-12 m-auto hover:bg-accent rounded hover:text-white ease-in duration-200"
+                to="/about"
+              >
+                About us
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                class="text-gray-500 transition px-6 h-12 m-auto hover:bg-accent rounded hover:text-white ease-in duration-200"
+                to="/services"
+              >
+                Services
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
