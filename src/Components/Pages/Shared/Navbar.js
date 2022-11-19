@@ -54,6 +54,22 @@ const Navbar = () => {
                   Services
                 </Link>
               </li>
+              <li>
+                <Link
+                  class="text-gray-500 transition px-8 h-14  hover:bg-accent rounded-lg hover:text-white ease-in duration-200"
+                  to="/clients"
+                >
+                  Clients
+                </Link>
+              </li>
+              <li>
+              <Link
+                class="text-gray-500 transition px-6 h-12 m-auto hover:bg-accent rounded hover:text-white ease-in duration-200"
+                to="/history"
+              >
+               Company History
+              </Link>
+            </li>
             </ul>
           </div>
           <a href="/" className=" normal-case text-xl">
@@ -86,6 +102,22 @@ const Navbar = () => {
                 to="/services"
               >
                 Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                class="text-gray-500 transition px-6 h-12 m-auto hover:bg-accent rounded hover:text-white ease-in duration-200"
+                to="/clients"
+              >
+                Clients
+              </Link>
+            </li>
+            <li>
+              <Link
+                class="text-gray-500 transition px-6 h-12 m-auto hover:bg-accent rounded hover:text-white ease-in duration-200"
+                to="/history"
+              >
+                Company History
               </Link>
             </li>
           </ul>

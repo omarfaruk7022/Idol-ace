@@ -7,6 +7,8 @@ import ProductsDetails from "./Components/Pages/ProductsDetails";
 import Footer from "./Components/Pages/Shared/Footer";
 import About from "./Components/Pages/About";
 import Services from "./Components/Pages/Services";
+import Clients from "./Components/Pages/Clients";
+import History from "./Components/Pages/History";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>} />
         <Route path="/services" element={<Services/>} />
+        <Route path="/clients" element={<Clients/>} />
+        <Route path="/history" element={<History/>} />
         <Route path="/productDetails/:id" element={<ProductsDetails/>} />
       </Routes>
       <Footer/>
